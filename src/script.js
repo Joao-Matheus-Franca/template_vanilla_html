@@ -1,0 +1,1 @@
+console.log("Bem vindo ao script JavaScript")
