@@ -1,1 +1,1 @@
-<h1>Template para Vanilla HTM, CSS e JavaScript</h1>
+<h1>Template para vanilla HTM, CSS e JavaScript</h1>
