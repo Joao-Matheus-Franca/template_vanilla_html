@@ -39,7 +39,7 @@
       // Método 01:
         myFirstObject.chave03 = 'valor03';
         console.log(myFirstObject); // -> { chave01: 'valor01', chave02: 'valor02', chave03: 'valor03' }
-      // Método 03:
+      // Método 02:
     		myFirstObject['chave04'] = 'valor04';
     		console.log(myFirstObject); // -> { chave01: 'valor01', chave02: 'valor02', chave03: 'valor03', chave04: 'valor04' }
     // Acessar valores em objetos:
@@ -51,6 +51,6 @@
     	// Método 01:
     		myFirstObject.chave01 = 'novoValor01';
     		console.log(myFirstObject); // -> { chave01: 'novoValor01', chave02: 'valor02', chave03: 'valor03', chave04: 'valor04'}
-    	// Método 03:
+    	// Método 02:
     		myFirstObject['chave02'] = 'novoValor02';
     		console.log(myFirstObject); // -> { chave01: 'novoValor01', chave02: 'novoValor02', chave03: 'valor03', chave04: 'valor04' }
