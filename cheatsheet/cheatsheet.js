@@ -15,17 +15,40 @@ const objectVariable = { chave: 'valor'};
 
 // Trabalhando com arrays:
 const myFirstArray = ['valor01', 'valor02'];
-
   // Acessar valores em Arrays:
+    // Usando o índice dos valores:
     console.log(myFirstArray[0]); // -> valor01
-
   // Verificando número de dados do Array:
     console.log(myFirstArray.length); // -> 2
-
   // Adicionando valores no fim do Array:
     myFirstArray.push('valor03');
     console.log(myFirstArray); // -> ['valor01', 'valor02', 'valor03']
-
-  // Removendo valores no fim do Array:
+  // Removendo valores do Array:
+    // Da ultima posição:
     myFirstArray.pop();
     console.log(myFirstArray); // -> ['valor01', 'valor02']
+  // Atualizando posições já existentes:
+    myFirstArray[0] = 'novoValorDoIndex0'
+    console.log(myFirstArray); // -> ['novoValorDoIndex0', 'valor02']
+
+// Trabalhando com objetos:
+const myFirstObject = {chave01: 'valor01', chave02: 'valor02'};
+  // Acessar valores em objetos:
+    // Método 01:
+    console.log(myFirstObject.chave01); // -> valor01
+    // Método 02:
+    console.log(myFirstObject['chave02']); // -> valor02
+  // Adicionando valores em objetos:
+    // Método 01:
+    myFirstObject.chave03 = 'valor03';
+    console.log(myFirstObject); // -> { chave01: 'valor01', chave02: 'valor02', chave03: 'valor03' }
+    // Método 03:
+    myFirstObject['chave04'] = 'valor04';
+    console.log(myFirstObject); // -> { chave01: 'valor01', chave02: 'valor02', chave03: 'valor03', chave04: 'valor04' }
+  // Atualizando uma chave já existente:    
+    // Método 01:
+    myFirstObject.chave01 = 'novoValor01';
+    console.log(myFirstObject); // -> { chave01: 'novoValor01', chave02: 'valor02', chave03: 'valor03' }
+    // Método 03:
+    myFirstObject['chave02'] = 'novoValor02';
+    console.log(myFirstObject); // -> { chave01: 'novoValor01', chave02: 'novoValor02', chave03: 'valor03', chave04: 'valor04' }
