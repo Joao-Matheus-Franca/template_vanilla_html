@@ -15,13 +15,17 @@ const objectVariable = { chave: 'valor'};
 
 // Trabalhando com arrays:
 const myFirstArray = ['valor01', 'valor02'];
+
   // Acessar valores em Arrays:
-    console.log(myFirstArray[0]);
+    console.log(myFirstArray[0]); // -> valor01
+
   // Verificando número de dados do Array:
-    console.log(myFirstArray.length);
+    console.log(myFirstArray.length); // -> 2
+
   // Adicionando valores no fim do Array:
     myFirstArray.push('valor03');
-    console.log(myFirstArray);
+    console.log(myFirstArray); // -> ['valor01', 'valor02', 'valor03']
+
   // Removendo valores no fim do Array:
     myFirstArray.pop();
-    console.log(myFirstArray);
+    console.log(myFirstArray); // -> ['valor01', 'valor02']
