@@ -40,8 +40,8 @@
         myFirstObject.chave03 = 'valor03';
         console.log(myFirstObject); // -> { chave01: 'valor01', chave02: 'valor02', chave03: 'valor03' }
       // Método 02:
-    	myFirstObject['chave04'] = 'valor04';
-    	console.log(myFirstObject); // -> { chave01: 'valor01', chave02: 'valor02', chave03: 'valor03', chave04: 'valor04' }
+    	  myFirstObject['chave04'] = 'valor04';
+    	  console.log(myFirstObject); // -> { chave01: 'valor01', chave02: 'valor02', chave03: 'valor03', chave04: 'valor04' }
     // Acessar valores em objetos:
     	// Método 01:
     		console.log(myFirstObject.chave01); // -> valor01
