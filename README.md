@@ -1,1 +1,1 @@
-<h1>🍦 Template para vanilla HTML, CSS e JS 🍦</h1>
+<h1>🍦 Template para vanilla HTML 🍦</h1>
