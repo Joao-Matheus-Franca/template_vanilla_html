@@ -1,8 +1,17 @@
-#main-div {
+#div-main {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
 	padding-top: 35vh;
+}
+
+#title-login {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#navbar-login {
+	margin-bottom: 10px;
 }
 
 #form-login {
@@ -11,15 +20,6 @@
 	border: 5px solid black;
 	border-radius: 10px;
 	padding: 5%;
-}
-
-#title {
-	margin-top: 10px;
-	margin-bottom: 10px;
-}
-
-#navbar {
-	margin-bottom: 10px;
 }
 
 .form-login-element {
