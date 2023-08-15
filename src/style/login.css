@@ -1,7 +1,35 @@
+#main-div {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding-top: 35vh;
+}
+
 #form-login {
 	display: flex;
 	flex-direction: column;
 	border: 5px solid black;
 	border-radius: 10px;
 	padding: 5%;
+}
+
+#title {
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+#navbar {
+	margin-bottom: 10px;
+}
+
+.form-login-element {
+	margin-top: 5px;
+}
+
+#button-login, #button-to-register {
+	width: 100%;
+}
+
+#e-mail, #password {
+	width: 70%;
 }

@@ -9,41 +9,44 @@
     <title>Template</title>
   </head>
   <body>
-    <h1 class="title">Login</h1>
-    <nav>
-      <a href="login.html">Login</a>
-      <a href="main.html">Main</a>
-      <a href="about.html">About</a>
-    </nav>
-    <form id="form-login">
-      <label for="e-mail">E-mail:
-        <input
-          id="e-mail" 
-          type="text"
-          placeholder="Digite seu e-mail"
-        />
-      </label for="password">Senha:
-        <input
-          id="password" 
-          type="text"
-          placeholder="Digite sua senha"
-        />
-      </label>
-      <label for="button-login">
-        <input
-          id="button-login" 
-          type="button"
-          value="Entrar"
-        />
-      </label>
-      <label for="button-to-register">
-        <input
-          id="button-to-register" 
-          type="button"
-          value="Cadastre-se"
-        />
-      </label>
-    </form>
+    <div id="main-div">
+      <h1 id="title">Login</h1>
+      <nav id="navbar">
+        <a href="login.html">Login</a>
+        <a href="main.html">Main</a>
+        <a href="about.html">About</a>
+      </nav>
+      <form id="form-login">
+        <label class="form-login-element" for="e-mail">E-mail:
+          <input
+            id="e-mail" 
+            type="text"
+            placeholder="Digite seu e-mail"
+          />
+        </label>
+        <label class="form-login-element" for="password">Senha:
+          <input
+            id="password" 
+            type="password"
+            placeholder="Digite sua senha"
+          />
+        </label>
+        <label class="form-login-element" for="button-login">
+          <input
+            id="button-login" 
+            type="button"
+            value="Entrar"
+          />
+        </label>
+        <label class="form-login-element" for="button-to-register">
+          <input
+            id="button-to-register" 
+            type="button"
+            value="Cadastre-se"
+          />
+        </label>
+      </form>
+    </div>
     <script src="../script.js"></script>
   </body>
 </html>
