@@ -1,7 +1,4 @@
-#div-main {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
+.div-main {
 	padding-top: 35vh;
 }
 

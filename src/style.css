@@ -14,3 +14,13 @@ label {
 	display: flex;
 	justify-content: space-between;
 }
+
+.title {
+	border: 2px solid red;
+}
+
+.div-main {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
