@@ -2,16 +2,16 @@
 	padding-top: 35vh;
 }
 
-#title-login {
+#title-register {
 	margin-top: 10px;
 	margin-bottom: 10px;
 }
 
-#navbar-login {
+#navbar-register {
 	margin-bottom: 10px;
 }
 
-#form-login {
+#form-register {
 	display: flex;
 	flex-direction: column;
 	border: 5px solid black;
@@ -19,18 +19,15 @@
 	padding: 5%;
 }
 
-.form-login-element {
+.form-register-element {
 	margin-top: 5px;
 }
 
-#button-login, #button-to-register {
+#button-register {
 	width: 100%;
+    margin-bottom: 5px;
 }
 
-#button-to-register {
-	margin-bottom: 5px;
-}
-
-#e-mail, #password {
+#username, #e-mail, #password {
 	width: 70%;
 }

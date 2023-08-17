@@ -4,45 +4,45 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="../style.css" type="text/css">
-    <link rel="stylesheet" href="../style/login.css" type="text/css">
+    <link rel="stylesheet" href="../style/register.css" type="text/css">
     <link rel="icon" href="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original.svg">
     <title>Template</title>
   </head>
   <body>
     <div class="div-main">
-      <h1 id="title-login">Login</h1>
-      <nav id="navbar-login">
-        <a href="../index.html">Template</a>
+      <h1 id="title-register">Register</h1>
+      <nav id="navbar-register">
+        <a href="login.html">Login</a>
         <a href="main.html">Main</a>
         <a href="about.html">About</a>
       </nav>
-      <form id="form-login">
-        <label class="form-login-element" for="e-mail">E-mail:
+      <form id="form-register">
+        <label class="form-register-element" for="username">User:
+            <input
+              id="username" 
+              type="text"
+              placeholder="Nome de usuário"
+            />
+          </label>
+        <label class="form-register-element" for="e-mail">E-mail:
           <input
             id="e-mail" 
             type="text"
-            placeholder="Digite seu e-mail"
+            placeholder="E-mail"
           />
         </label>
-        <label class="form-login-element" for="password">Senha:
+        <label class="form-register-element" for="password">Senha:
           <input
             id="password" 
             type="password"
-            placeholder="Digite sua senha"
+            placeholder="Senha"
           />
         </label>
-        <label class="form-login-element" for="button-login">
+        <label class="form-register-element" for="button-register">
           <input
-            id="button-login" 
+            id="button-register" 
             type="button"
-            value="Entrar"
-          />
-        </label>
-        <label class="form-login-element" for="button-to-register">
-          <input
-            id="button-to-register" 
-            type="button"
-            value="Cadastre-se"
+            value="Cadastrar"
           />
         </label>
       </form>
