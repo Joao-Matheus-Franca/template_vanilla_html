@@ -3,7 +3,7 @@ const fullMenu = document.getElementById("navbar-menu")
 
 function openMenu () {
     if (fullMenu.classList.value === 'hidde') {
-        fullMenu.classList.remove('hidde')
+        fullMenu.className = 'show'
     }
     else {
         fullMenu.className = 'hidde'
