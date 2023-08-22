@@ -21,6 +21,20 @@ main {
 	align-items: center;
 }
 
+footer {
+	display: flex;
+	justify-content: center;
+	position: fixed;
+	bottom: 0;
+	width: 100vw;
+	background-color: grey;
+}
+
+a {
+	text-decoration: none;
+	color: black;
+}
+
 .div-main {
 	display: flex;
 	flex-direction: column;
