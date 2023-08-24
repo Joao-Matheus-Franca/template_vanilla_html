@@ -1,8 +1,14 @@
+main {
+    padding-top: 6vh;
+    padding-bottom: 2vh;
+}
+
 .main-header {
     display: flex;
     width: 100vw;
     justify-content: space-between;
     background-color: grey;
+    position: fixed;
 }
 
 #menu-image {
@@ -20,15 +26,17 @@
 
 .show {
     display: flex;
+    position: fixed;
+    top: 56.5px;
+    width: 100vw;
+    background-color: grey;
     flex-direction: column;
-    border: 3px solid black;
-    padding: 10px;
     align-items: center;
 }
 
 .navbar-element {
     margin: 5px;
-    font-size: 16px;
+    font-size: 20px;
     text-decoration: none;
     color: black;
 }
