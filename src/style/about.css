@@ -1,3 +1,8 @@
+main {
+    padding-top: 6vh;
+    padding-bottom: 2vh;
+}
+
 .main-header {
     display: flex;
     width: 100vw;
@@ -38,4 +43,20 @@
 
 .hidde {
     display: none;
+}
+
+#about-image {
+    width: 175px;
+}
+
+#about-text {
+    width: 75%;
+    padding: 10px;
+    text-align: center;
+}
+
+#footer-text {
+    margin-top: auto;
+    margin-bottom: 0%;
+    margin-right: 20px;
 }
