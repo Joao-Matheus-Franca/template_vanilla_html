@@ -1,0 +1,41 @@
+.main-header {
+    display: flex;
+    width: 100vw;
+    justify-content: space-between;
+    background-color: grey;
+    position: fixed;
+}
+
+#menu-image {
+    width: 50px;
+}
+
+.header-title {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#perfil-image {
+    width: 50px;
+}
+
+.show {
+    display: flex;
+    position: fixed;
+    top: 56.5px;
+    width: 100vw;
+    background-color: grey;
+    flex-direction: column;
+    align-items: center;
+}
+
+.navbar-element {
+    margin: 5px;
+    font-size: 20px;
+    text-decoration: none;
+    color: black;
+}
+
+.hidde {
+    display: none;
+}
